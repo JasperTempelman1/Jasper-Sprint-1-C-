@@ -1,0 +1,70 @@
+html {
+	background-color: #d9b3ff
+}
+
+#div1 {
+	box-shadow: 4px 4px 10px rgba(0, 0, 0.5);
+	background-color: PaleGreen ;
+    width: 100%;
+	height: 40px;  
+	font-size: 20px;
+	margin: auto; 
+	margin-top: -2%;
+	margin-bottom: 3%;
+	text-align: center;
+}
+#div2 {
+	box-shadow: 4px 4px 10px rgba(0, 0, 0.5);
+	background-color: PaleGreen ;
+    width: 80%;
+    height: 280px;
+    font-size: 15px;
+    margin-left: 5%;
+    margin-bottom: 3%;
+	text-align: center;
+	margin: auto;
+	background-image: url(http://icons.iconarchive.com/icons/yootheme/social-bookmark/256/social-google-box-icon.png);
+	background-position: top right;
+	background-repeat: no-repeat;
+	animation-name: revolutie;
+	animation-duration: 3s;
+	animation-iteration-count: infinite;
+	animation-timing-function: linear;
+	
+}
+#div2:hover{
+	margin-left: 20%;
+	color: palegreen;
+	opacity: 0.9;
+}
+#div3 {
+	box-shadow: 4px 4px 10px rgba(0, 0, 0.5);
+	background-color: LawnGreen;
+	width: 80%;
+	height: 190px;
+	margin-left: 3%;
+	text-align: center;
+	margin: auto;
+	background-image: url(https://image.flaticon.com/icons/svg/183/183320.svg);
+	background-position: top left;
+	background-repeat: no-repeat;
+	opacity: 0.9;
+}
+#div4 {
+	box-shadow: 4px 4px 10px rgba(0, 0, 0.5);
+    background-color; LawnGreen;
+    width: 80%;
+    height: 100px;
+    margin-left: 0%;
+    text-align: center;
+    margin: auto;
+	position: relative;
+	top: 50%;
+	transform: translateY(-50%);
+	color: red;
+	
+}
+@keyframes revolutie {
+		from {transform: rotatex(0deg);}
+		to {transform: rotatex(360deg);}
+}
